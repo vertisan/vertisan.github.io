@@ -27,8 +27,12 @@ jobs:
       with:
         version: 8
 
-    - name: Build
+    - name: Install dependencies
       run: |
         cd app
         pnpm install
+
+    - name: Build
+      run: |
+        pnpm run build
         pnpm run deploy
