@@ -4,6 +4,9 @@
 
 @import "variables";
 @import "container";
+@import "header";
+
+@include light-mode;
 
 html {
   box-sizing: border-box;
@@ -28,7 +31,7 @@ body {
   font-family: "Open Sans", sans-serif;
   position: relative;
   background: transparent;
-  color: #fff;
+  color: var(--font-color);
 
   &::before {
     content: "";
@@ -38,86 +41,6 @@ body {
     top: 0px;
     height: 100vh;
     z-index: -1;
-    background-color: #000;
-    background: url(../img/bg2.jpg) center top / cover no-repeat #000;
-  }
-}
-
-header {
-  width: 100%;
-
-  h1 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 48px;
-    padding: 0;
-    margin: 0;
-
-    a,
-    a:hover,
-    a:focus {
-      color: rgb(255, 255, 255);
-      text-decoration: none;
-    }
-  }
-
-  h2 {
-    font-family: "Raleway", sans-serif;
-    font-size: 24px;
-    margin-top: 20px;
-    color: rgba(255, 255, 255, 0.8);
-    font-weight: 500;
-
-    span {
-      border-bottom: 2px solid var(--primary-color);
-      padding-bottom: 6px;
-      color: #fff;
-    }
-  }
-
-  .social-links {
-    margin-top: 40px;
-    display: flex;
-
-    a {
-      font-size: 16px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #fff;
-      line-height: 1;
-      margin-right: 8px;
-      width: 40px;
-      height: 40px;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 50%;
-      text-decoration: none;
-      transition: all 0.3s ease-in-out 0s;
-
-      &:hover,
-      &:focus {
-        background-color: var(--primary-color);
-      }
-    }
-  }
-}
-
-@media (max-width: 992px) {
-  header {
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    h1 {
-      font-size: 36px;
-    }
-
-    h2 {
-      font-size: 20px;
-      line-height: 30px;
-      text-align: center;
-    }
+    background: var(--background-image) center top / cover no-repeat var(--background-color);
   }
 }

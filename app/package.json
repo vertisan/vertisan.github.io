@@ -5,6 +5,7 @@
     "start": "webpack-dev-server --config webpack/webpack.config.js --open",
     "build": "webpack --progress --config webpack/webpack.config.js --mode production",
     "prettier": "prettier --write \"src/(scss|js)/**/*.(scss|css|js|json)\"",
+    "predeploy": "pnpm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
