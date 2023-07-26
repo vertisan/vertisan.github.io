@@ -14,7 +14,7 @@
 @mixin light-mode {
   :root {
     --mode: "light";
-    --background-image: url(../img/bg-light.jpg);
+    --background-image: url(../img/bg-lines.svg);
     --background-color: #fff;
     --primary-color: #9718d2;
     --secondary-color: #ca35e8;
