@@ -1,16 +1,3 @@
-@mixin dark-mode {
-  :root {
-    --mode: "dark";
-    --background-image: url(../img/bg-dark.jpg);
-    --background-color: #000;
-    --primary-color: #9718d2;
-    --secondary-color: #ca35e8;
-    --font-color: #fff;
-    --social-icon-bg: rgba(255, 255, 255, .1);
-    --social-icon-color-hover: #000;
-  }
-}
-
 @mixin light-mode {
   :root {
     --mode: "light";
