@@ -94,6 +94,10 @@ module.exports = {
           from: 'src/img',
           to: './img',
         },
+        {
+          from: 'gpg.txt',
+          to: './',
+        },
       ],
     }),
     new ImageminPlugin({
