@@ -19,16 +19,9 @@ header {
   h2 {
     font-family: "Raleway", sans-serif;
     font-size: 24px;
-    margin-top: 20px;
+    margin: 20px 0 30px;
     color: rgba(var(--font-color), 0.8);
     font-weight: 500;
-
-    // span {
-    //   border-bottom: 2px solid var(--primary-color);
-    //   padding-bottom: 4px;
-    //   color: var(--font-color);
-    //   font-weight: 500;
-    // }
 
     ul {
       list-style: none;
@@ -77,6 +70,10 @@ header {
       border-radius: 50%;
       text-decoration: none;
       transition: all 0.3s ease-in-out 0s;
+
+      i.cib-helm {
+        font-size: 20px;
+      }
 
       &:hover,
       &:focus {
