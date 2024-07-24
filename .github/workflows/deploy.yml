@@ -2,9 +2,11 @@ name: NodeJS with Webpack
 
 on:
   push:
-    branches: [ "master" ]
+    branches:
+      - master
   pull_request:
-    branches: [ "master" ]
+    branches:
+      - master
   workflow_dispatch:
 
 
@@ -14,20 +16,19 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version:
+          - 20.x
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
 
     - name: Setup pnpm
-      uses: pnpm/action-setup@v2.2.4
-      with:
-        version: 8
+      uses: pnpm/action-setup@v4.0.0
 
     - name: Install dependencies
       run: |
