@@ -44,7 +44,7 @@ header {
         }
 
         i {
-          color: var(--primary-color);
+          color: var(--secondary-color);
           font-size: 20px;
           vertical-align: middle;
         }
@@ -92,7 +92,7 @@ header {
 
   .logo {
     img {
-      width: 100px;
+      width: 200px;
     }
   }
 }
@@ -114,6 +114,12 @@ header {
       font-size: 20px;
       line-height: 30px;
       text-align: center;
+    }
+
+    .logo {
+      img {
+        width: 120px;
+      }
     }
   }
 }

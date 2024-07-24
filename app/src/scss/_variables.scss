@@ -5,8 +5,21 @@
     --background-color: #fff;
     --primary-color: #9718d2;
     --secondary-color: #ca35e8;
-    --font-color: #272727;
+    --font-color: #0D1117;
     --social-icon-bg: rgba(0, 0, 0, .1);
+    --social-icon-color-hover: #fff;
+  }
+}
+
+@mixin dark-mode {
+  :root {
+    --mode: "dark";
+    --background-image: url(../img/bg-lines.svg);
+    --background-color: #0D1117;
+    --primary-color: #9718d2;
+    --secondary-color: #ca35e8;
+    --font-color: #fff;
+    --social-icon-bg: rgba(255, 255, 255, .15);
     --social-icon-color-hover: #fff;
   }
 }

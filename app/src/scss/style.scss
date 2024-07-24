@@ -6,7 +6,7 @@
 @import "container";
 @import "header";
 
-@include light-mode;
+@include dark-mode;
 
 html {
   box-sizing: border-box;
