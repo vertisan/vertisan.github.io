@@ -98,6 +98,10 @@ module.exports = {
           from: 'gpg.txt',
           to: './',
         },
+        {
+          from: '.well-known',
+          to: './.well-known',
+        },
       ],
     }),
     new ImageminPlugin({
