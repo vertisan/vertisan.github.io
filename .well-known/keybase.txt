@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/vertisan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://vrs-factory.dev
+  * I am vertisan (https://keybase.io/vertisan) on keybase.
+  * I have a public key with fingerprint 547C 688E F2BC 5035 A597  0B09 645D E7B9 D003 69CE
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01014d811c7a4d5d6922700009e092eeb2acf6506970e9a60e17093e6e4b4dd4471f0a",
+      "fingerprint": "547c688ef2bc5035a5970b09645de7b9d00369ce",
+      "host": "keybase.io",
+      "key_id": "645de7b9d00369ce",
+      "kid": "01014d811c7a4d5d6922700009e092eeb2acf6506970e9a60e17093e6e4b4dd4471f0a",
+      "uid": "8045df1dea6c4e783415b1b74927a719",
+      "username": "vertisan"
+    },
+    "service": {
+      "hostname": "vrs-factory.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1747659250,
+  "expire_in": 157680000,
+  "prev": "786ac3cda1d9986a1814fcc37988c42dcd20602dd1ef4147c3c6c4b0254f4cd8",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUmtQVGUYXgTk6m1MiAZbO0o5y7Kd+2WbGgEdZTTacgy5LufyLXtY3F3PHogF
+8VKAQ6VigIOijsFYo+s2mCkzrY5MQ1BSMhMptEVEjhAyloiGQVbfYeJfP/v+fPO+
+3/M87/O+31u/KFQXGbI1hzsds7OqOaR3XNDZkw1RlYjgkryIuRJxgLkLlEjAo1od
+soSYERRDMVJiMUxkeFKiJJrDcQaFhwMohwMg4LxooymU5hgUcDyNAoxBOQLQgBRI
+SSJJBrOhPGJEbLKzCChuRXaqUJYiGZFmWWDDBZFCCYqnIF9AOZqkJMAInISiBM2J
+ABLtLo/GgOYE3gNMsgvmYGCds/cf+P/Zd+mcHIvCQjZMAjwtkoBhCRKjBExgSA5n
+eAbjNKAHKE5+B4DoMqCosod3IlVGBGbLZGgMDlbrZB6heFJsvKi6FK9JAmWQ7lZc
+qkt0lcBHu6q6PWaNrHrdGvoNIFj/1bEKslOCo4QMWMUju5yIGYNIUZU1YYwhGZri
+cAo1IqDcLSvAKmsIiqFZrXutDixnRhiW5nNFQpR4TOI4GGAsRtpEkWA4lhVJXBIl
+HKVRXJIwYCMx+F2ECFsXUJwibaQosYjW2k6nCzET0CdfBDU9cpGTV0sVgFRF1y0g
+wnQhkbqVcc+ENT198YkNSr2hLrDbMr9+4Qu03dNFRy2dz9Rbl+q+mKHyTVOTIz7/
+mfsdx2ss+2/qb1zfiG7p3Vbqd8wW3Dh26/eO3BlqtL0l9IOTOcaVt8cmX1m19mYg
+8061c/zkaod+a60a7LpWsdGXVrLbOOatvt7Gxy+OGyHcLT9lk6bmwuGFwawjEZvZ
+9Znvme4l752ueCmlMfPDzP4fLoUgVfrZkZjn86izFkB+XM7qLyw+cOXdKcfgU0eC
+beVZryZOxO9LWvdJZG6Pv5eLtvYdbtsS25q6Z3RD8QkuIjsx6q+gLwFcRTeBkOhj
+z33LjHVV2vtiicx9D84GErtbV9x7rDsFHtW+mH7wtxeWFOUZsPHQnn4lbeLzXfX+
+2TN9B/N3TX3aNDXwUXpVqg8pkYsLVn3WYDhQtLC4+4p7NCUJyz8dsWxJoPrr7PDX
+N/t/EYOnZhMvr3nbNFicVVgbVuYttBsO6YodsRmk8sfD8B2XfP6MthTXrdo9cW/m
+JKz3ihnpAWeevyyyqyc3rlG8uLq5qdFw/vC5ke1HTUP9L/vaf/5R9beee5yc9Nrw
+pk67vWFmOFKvu12Rt62iLgAGDiWMpO79u7vc4kx+cGHdcmP4kGWSv1wT9chnGViO
+16xd9mvLdMfd8ykZtqHvgtdirnYOVrcWgPYnhfj47G/euXM/vsfSmbT9+/3PftVa
+0pDx0BqbXNBz4u7kl8Mrpo8v+vP9WEfaWxP6XGXoHw==
+=5kWz
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vertisan
+
+==================================================================
