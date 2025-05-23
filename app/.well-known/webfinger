@@ -1,0 +1,9 @@
+{
+  "subject": "acct:hello@vrs-factory.dev",
+  "links": [
+    {
+      "rel": "http://openid.net/specs/connect/1.0/issuer",
+      "href": "https://id.vrs-factory.dev"
+    }
+  ]
+}
